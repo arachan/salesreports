@@ -1,5 +1,5 @@
 ﻿<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report1</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">invoice.rdlx</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -634,19 +634,19 @@
 	<DataSources>
 		<DataSource Name="DataSource1">
 			<ConnectionProperties>
-				<ConnectString>Path=C:\\Users\\yusuke\\Desktop\\VAT\\sales.csv;Locale=ja-JP;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;Columns=Salesno,detailno,item,price(Float),amount(Integer),tax(Float);HasHeaders=True</ConnectString>
+				<ConnectString>Path=C:\\Users\\yusuke\\Desktop\\salesreports\\sales.csv;Locale=ja-JP;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;Columns=Salesno,detailno,item,price(Float),amount(Integer),tax(Float);HasHeaders=True</ConnectString>
 				<DataProvider>CSV</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
 		<DataSource Name="percent8">
 			<ConnectionProperties>
-				<ConnectString>Path=C:\\Users\\yusuke\\Desktop\\VAT\\sales.csv;Locale=ja-JP;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;Columns=Salesno,detailno,item,price(Float),amount(Integer),tax(Float);HasHeaders=True</ConnectString>
+				<ConnectString>Path=C:\\Users\\yusuke\\Desktop\\salesreports\\sales.csv;Locale=ja-JP;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;Columns=Salesno,detailno,item,price(Float),amount(Integer),tax(Float);HasHeaders=True</ConnectString>
 				<DataProvider>CSV</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
 		<DataSource Name="percent10">
 			<ConnectionProperties>
-				<ConnectString>Path=C:\\Users\\yusuke\\Desktop\\VAT\\sales.csv;Locale=ja-JP;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;Columns=Salesno,detailno,item,price(Float),amount(Integer),tax(Float);HasHeaders=True</ConnectString>
+				<ConnectString>Path=C:\\Users\\yusuke\\Desktop\\salesreports\\sales.csv;Locale=ja-JP;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;Columns=Salesno,detailno,item,price(Float),amount(Integer),tax(Float);HasHeaders=True</ConnectString>
 				<DataProvider>CSV</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
