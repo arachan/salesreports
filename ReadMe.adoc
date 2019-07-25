@@ -1,0 +1,52 @@
+= Sales Reports
+Sales Reports for Reduced tax rate.
+Invoice sample using ActiveReports Designer.
+
+== VAT 10%
+
+In Japan From 2019/10/1 Value Add Tax up.
+
+Value Add Tax is from 8% to 10%.
+
+== Reduce tax 8%
+
+Japanese Gov. introduce Reduced tax rate.
+
+Reduced tax rate is 8%.
+
+Reduced tax target is foods and newspaper.
+
+== Invoice
+
+National Tax Agency(NTA) said sales reports write both reduce tax rate 8% and VAT 10%.
+
+NTA call this sales reports inovice.
+
+If don't write reduce tax rate, all goods add tax 10%.
+
+It is order from Japanese Goverment.
+
+== How to make using ActiveReports 
+
+I make a sample sales reports for reduce tax rate.
+
+condition is 4.
+
+1. Show reduce tax 8% sum and VAT10% tax sum in Table
+2. Show reduce tax 8% sum and VAT10% tax sum in Page Header
+3. Show reduct tax 8% and VAT10% exclude tax subtotal in Page Header
+4. Show Grandtotal add Tax and exclude tax subtotal
+
+=== Enviroment
+
+- Windows10 Home/Pro
+- ActiveReports Designer
+
+=== Files
+
+- Datasouce sales.csv
+- ReportsTemplate invoice.rdlx
+
+=== Link
+
+https://www.nta.go.jp/publication/pamph/koho/kurashi/html/01_5.htm[コラム≪適格請求書等保存方式の導入について≫ Japanese]
